@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Login</title>
+
+  <!-- Custom fonts for this template-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+<style>  :focus {
+  outline: none;
+}
+
+.content {
+  /* width: 500px; */
+  position: relative;
+  /* margin-right: 2rem; */
+}
+
+.input {
+  width: 100%;
+  border: 0;
+  padding: 12px 12px;
+  border-bottom: 1px solid #929fba;
+}
+
+.input ~ .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+}
+
+.input:focus ~ .border {
+  width: 100%;
+  transition: 0.5s;
+}
+
+/* .container {
+    border: 0.5px solid;
+    padding-bottom: 40px;
+} */
+
+.border {
+    border: 1px solid #186aa5!important;
+}
+.default-bg-light{
+background-color: #E8EFF7;
+}
+
+.default-bg,.default-bg:hover{
+  background-color: #186aa5;
+  color: #fff;
+}
+.default-color{
+  color: #186AA5;
+}
+
+a,a:hover{
+  color: #186AA5 !important;
+}
+.btn-block{
+  width: 200px;
+  display: inline-block !important;ss
+}
+.btn-user{
+  border-radius: .4rem !important;
+}
+.mt-7{
+    margin-top: 3rem;
+}
+.nav-tabs .nav-link,.default-btn {
+background-color: #D1E4F3;
+}
+.nav-tabs .nav-link{
+    border: 0px solid transparent !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    padding: 1rem;
+}
+.form-control {
+height:50px;
+}
+.btn{
+    height:50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+</style>
+
+</head>
+
+<body class=default-bg-light>
+    <p class="pt-5 pl-5"><a href=""> <i class="fa fa-caret-left"></i> Back to home</a></p>
+
+  <div class="container mt-7 ">
+
+    <!-- Outer Row -->
+    <!-- <div class=" justify-content-center"> -->
+        <div class="row mb-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+                <nav class="">
+                    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                    <a class="w-50 nav-item nav-link active text-center default-color" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Login</a>
+                    <!-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a> -->
+                    <a class="w-50 nav-item nav-link text-center default-color" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Sign Up</a>
+                    </div>
+                </nav>
+                <div class="tab-content bg-white " id="nav-tabContent">
+                    <div class="tab-pane fade container p-5 show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <form>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number/Email">
+                            </div>
+                            <div class="form-group">
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <!-- <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div> -->
+                            <div class="form-group ">
+                                <button type="submit" class="btn default-bg w-100">LOGIN</button>
+                            </div>
+                            <a href=""> <p class="text-center default-color">Forgot Password?</p></a>
+                        </form>   
+                    </div>
+                    <!-- <div class="tab-pane fade text-center" id="nav-profile " role="tabpanel" aria-labelledby="nav-profile-tab">..jwjjwjww.</div> -->
+                    <div class="tab-pane fade container p-5" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                        <form>
+                            <div class="form-group">
+                              <input type="email/text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email/Phone number">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="" placeholder="Meter number">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                              </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Repeat password">
+                              </div>
+
+                              <div class="form-group ">
+                                <button type="submit" class="btn default-bg w-100">SIGN UP</button>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I agree to the terms & conditions </label>
+                              </div>
+  
+                        </form>   
+
+
+                    </div>
+                    
+                </div>
+                <div class="text-center pt-4">
+                    <p>Or Login With</p>
+                    <ul class="">
+                        <li class="mr-2"><button class="default-btn btn w-25 "> <i class="fa fa-2x fa-facebook default-color" aria-hidden="true"></i> </button></li>
+                        <li class="ml-2"><button class=" default-btn btn w-25 "><i class="fa fa-2x fa-google default-color" aria-hidden="true"></i></button></li>
+                    </ul>
+                    <!-- <div style="display: inline;" class="w-100 default-bg text-center"> <i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    <div style="display: inline;" class="default-bg text-center"><i class="fa fa-google" aria-hidden="true"></i></div> -->
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>
+    <!-- </div> -->
+
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>
